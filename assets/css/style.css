@@ -57,7 +57,7 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image & cover text*/
+/* hero image & cover text */
 
 #hero-outer {
     height: 600px;
@@ -68,17 +68,19 @@ h1, h2 {
 }
 
 #cover-text, #cover-text h2 {
-    color: #fff
+    color: #fff;
 }
+
 #hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
 
 /* animates zoom effect of zoom for hero image */
-animation-name: hero-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 /* creates the level of zoom for hero image */
@@ -121,18 +123,46 @@ animation-fill-mode: forwards;
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
-    float:right;
-    background-color: silver;
+    float: right;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
     background-color: green;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
 }
